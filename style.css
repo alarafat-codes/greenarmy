@@ -160,10 +160,10 @@ img {
 .hero {
   position: relative;
   height: 585px;
-  background: url("../images/hero-bg.png") center / cover no-repeat;
+  background: url("images/hero-bg.png") center / cover no-repeat;
 }
 
-/* soft white overlay from the design */
+
 .hero::before {
   content: "";
   position: absolute;
@@ -201,7 +201,7 @@ img {
 
 .hero-desc {
   max-width: 543px;
-  margin-top: 15px; /* 24px gap in the design, minus extra line spacing */
+  margin-top: 15px; 
   font-size: 18px;
   line-height: 30px;
   color: var(--gray);

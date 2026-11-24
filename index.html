@@ -21,9 +21,13 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- responcive  -->
+
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
-    <!--  NAVBAR -->
+    <!-- ================= 1. NAVBAR ================= -->
     <header class="navbar">
       <div class="container navbar-inner">
         <a href="#" class="logo">
@@ -37,6 +41,12 @@
             <p class="logo-tagline">Cleaning Services company</p>
           </div>
         </a>
+
+        <!-- Mobile menu toggle (pure CSS) -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
 
         <nav class="menu">
           <ul>
@@ -111,7 +121,7 @@
             ></a>
           </div>
 
-          <!-- Card 2 (green button in the design) -->
+          <!-- Card 2 -->
           <div class="service-card">
             <img
               src="images/img2.png"
@@ -152,5 +162,547 @@
         </div>
       </div>
     </section>
+
+    <!-- ================= 4. ABOUT (Affordable cleaning solutions) ================= -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-text">
+          <p class="about-label">Affordable cleaning solutions</p>
+          <h2 class="about-title">
+            High-Quality and Friendly Services at Fair Prices
+          </h2>
+          <p class="about-desc">
+            We provide comprehensive cleaning services tailored to your needs.
+            From residential cleaning services
+          </p>
+          <a href="#contact" class="btn btn-outline btn-md">Get a quote</a>
+        </div>
+
+        <div class="about-img">
+          <img src="images/about.png" alt="Cleaning team at work" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. TEAM ================= -->
+    <section class="team">
+      <div class="container">
+        <!-- same header style as services -->
+        <div class="services-top">
+          <h2 class="services-title">
+            Effective Cleaning Requires an Expert Cleaning Team
+          </h2>
+          <div class="services-intro">
+            <h3>Expert Team</h3>
+            <p>
+              We have professional expert cleaning staff ensuring top-notch
+              cleanliness and hygiene for your space.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-line"></div>
+
+        <div class="team-cards">
+          <!-- Member 1 -->
+          <div class="team-card">
+            <img src="images/team1.png" alt="Erick Reynolds" class="team-img" />
+            <div class="team-info">
+              <h3 class="team-name">Erick Reynolds</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="team-text">
+                He is an expert cleaning staff member who provides thorough
+                cleaning with precision,
+              </p>
+              <div class="social">
+                <a href="#" aria-label="Facebook"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a href="#" aria-label="X"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="#" aria-label="LinkedIn"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="team-card">
+            <img src="images/team2.png" alt="Erick Reynolds" class="team-img" />
+            <div class="team-info">
+              <h3 class="team-name">Erick Reynolds</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="team-text">
+                He is an expert cleaning staff member who provides thorough
+                cleaning with precision,
+              </p>
+              <div class="social">
+                <a href="#" aria-label="Facebook"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a href="#" aria-label="X"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="#" aria-label="LinkedIn"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="team-card">
+            <img src="images/team3.png" alt="Erick Reynolds" class="team-img" />
+            <div class="team-info">
+              <h3 class="team-name">Erick Reynolds</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="team-text">
+                He is an expert cleaning staff member who provides thorough
+                cleaning with precision,
+              </p>
+              <div class="social">
+                <a href="#" aria-label="Facebook"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a href="#" aria-label="X"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="#" aria-label="LinkedIn"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. WELCOME ================= -->
+    <section class="welcome">
+      <div class="container welcome-inner">
+        <div class="welcome-images">
+          <img
+            src="images/welcome1.png"
+            alt="Cleaning team"
+            class="welcome-img-main"
+          />
+          <img
+            src="images/welcome2.png"
+            alt="Cleaning staff"
+            class="welcome-img-sub"
+          />
+        </div>
+
+        <div class="welcome-text">
+          <h2 class="welcome-title">Welcome To Our Pro cleaning Company!</h2>
+          <p class="welcome-desc">
+            We make your space shine! Professional and reliable cleaning service
+            company providing top notch solutions for homes and businesses.
+            Satisfaction guaranteed!
+          </p>
+
+          <ul class="welcome-list">
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Vetted professionals
+            </li>
+            <li><i class="fa-solid fa-circle-check"></i> Affordable Prices</li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Next day availability
+            </li>
+            <li><i class="fa-solid fa-circle-check"></i> Best Quality</li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Standard cleaning tasks
+            </li>
+            <li><i class="fa-solid fa-circle-check"></i> Affordable Prices</li>
+          </ul>
+
+          <div class="welcome-buttons">
+            <a href="#" class="btn btn-primary btn-md">Book Now</a>
+            <a href="#" class="btn btn-outline btn-md">Know More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. PRICING ================= -->
+    <section class="pricing">
+      <div class="container pricing-inner">
+        <p class="pricing-label">Our Pricing</p>
+        <h2 class="pricing-title">Choose From Our Lowest Plans and Prices</h2>
+
+        <!-- CSS-only Monthly / Yearly switch -->
+        <input
+          type="radio"
+          name="billing"
+          id="monthly"
+          class="billing-radio"
+          checked
+        />
+        <input type="radio" name="billing" id="yearly" class="billing-radio" />
+        <div class="billing-toggle">
+          <label for="monthly">Monthly</label>
+          <label for="yearly">Yearly</label>
+        </div>
+
+        <div class="pricing-cards">
+          <!-- Basic -->
+          <div class="price-card">
+            <h3 class="price-name">Basic Package</h3>
+            <div class="price-badge">
+              <span class="price-monthly">$ 59.00<small>/Monthly</small></span>
+              <span class="price-yearly">$ 590.00<small>/Yearly</small></span>
+            </div>
+            <ul class="price-list">
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Dusting of all surfaces
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Sweeping and mopping
+                floors
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Vacuuming carpets and
+                rugs
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Cleaning of kitchen
+                surfaces
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Cleaning of bathroom
+                surfaces
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Emptying trash bins
+              </li>
+            </ul>
+            <a href="#" class="btn btn-outline btn-md btn-full">Book Now</a>
+          </div>
+
+          <!-- Enterprise -->
+          <div class="price-card featured">
+            <h3 class="price-name">Enterprise Package</h3>
+            <div class="price-badge">
+              <span class="price-monthly">$ 69.00<small>/Monthly</small></span>
+              <span class="price-yearly">$ 690.00<small>/Yearly</small></span>
+            </div>
+            <ul class="price-list">
+              <li>
+                <i class="fa-solid fa-circle-check"></i> All services in the
+                Basic Plan
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Detailed dusting</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Wiping down of kitchen
+                appt
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Cleaning inside the
+                microwave
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Changing bed linens
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Spot cleaning walls and
+                doors
+              </li>
+            </ul>
+            <a href="#" class="btn btn-outline btn-md btn-full">Book Now</a>
+          </div>
+
+          <!-- Premium -->
+          <div class="price-card">
+            <h3 class="price-name">Premium Package</h3>
+            <div class="price-badge">
+              <span class="price-monthly">$ 99.00<small>/Monthly</small></span>
+              <span class="price-yearly">$ 990.00<small>/Yearly</small></span>
+            </div>
+            <ul class="price-list">
+              <li>
+                <i class="fa-solid fa-circle-check"></i> All services in the
+                Clean Plan
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Deep cleaning of
+                kitchen appt
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> baseboards, door
+                frames, &amp; vents
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Organization of closets
+                pantries
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Carpet, upholstery spot
+                cleaning
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Detailed bathroom
+                cleaning
+              </li>
+            </ul>
+            <a href="#" class="btn btn-outline btn-md btn-full">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. TESTIMONIAL ================= -->
+    <section class="testimonial">
+      <div class="container testimonial-inner">
+        <div class="testi-text">
+          <h2 class="testi-title">Feedback About Their Experience With Us</h2>
+          <p class="testi-desc">
+            Read testimonials from our satisfied clients. See how our cleaning
+            services have made a difference in their lives and homes
+          </p>
+          <div class="testi-arrows">
+            <a href="#" class="arrow-btn" aria-label="Previous"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></a>
+            <a href="#" class="arrow-btn arrow-next" aria-label="Next"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <img src="images/client.png" alt="Robert Fox" class="testi-img" />
+          <div class="testi-body">
+            <h3 class="testi-name">Robert Fox</h3>
+            <p class="testi-role">Business Man</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-quote">
+              Excellent service! The team was punctual, thorough, and left my
+              home sparkling clean. Highly recommend for anyone needing a
+              reliable and detailed cleaning service
+            </p>
+          </div>
+          <i class="fa-solid fa-quote-right quote-icon"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 9. BLOG ================= -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="services-top">
+          <h2 class="services-title">
+            Stay Updated with Our Tips &amp; Service News!
+          </h2>
+          <div class="services-intro">
+            <h3>Our Blog</h3>
+            <p>
+              Stay informed with our latest cleaning tips, service updates,
+              expert advice on maintaining an immaculate home
+            </p>
+          </div>
+        </div>
+
+        <div class="services-line"></div>
+
+        <div class="blog-cards">
+          <!-- Post 1 -->
+          <article class="blog-card">
+            <img
+              src="images/blog1.png"
+              alt="Eco-friendly cleaning"
+              class="blog-img"
+            />
+            <div class="blog-body">
+              <p class="blog-meta">John Helton &nbsp; Jan 6, 2025</p>
+              <h3 class="blog-title">
+                Eco-Friendly Cleaning: How We Keep Your Home Green
+              </h3>
+              <p class="blog-text">
+                Learn about our commitment to ecofriendly practices. We share
+                the ecoconscious products...
+              </p>
+              <a href="#" class="btn btn-outline btn-sm">Read More</a>
+            </div>
+          </article>
+
+          <!-- Post 2 -->
+          <article class="blog-card">
+            <img
+              src="images/blog2.png"
+              alt="Maintain a clean home"
+              class="blog-img"
+            />
+            <div class="blog-body">
+              <p class="blog-meta">John Helton &nbsp; Jan 6, 2025</p>
+              <h3 class="blog-title">
+                How to Maintain a Clean Home Between Professional Visits
+              </h3>
+              <p class="blog-text">
+                Get practical advice on maintaining cleanliness between our
+                scheduled visits. These easy-to-follow tips...
+              </p>
+              <a href="#" class="btn btn-outline btn-sm">Read More</a>
+            </div>
+          </article>
+
+          <!-- Post 3 -->
+          <article class="blog-card">
+            <img
+              src="images/blog3.png"
+              alt="Regular professional cleaning"
+              class="blog-img"
+            />
+            <div class="blog-body">
+              <p class="blog-meta">John Helton &nbsp; Jan 6, 2025</p>
+              <h3 class="blog-title">
+                The Benefits of Regular Professional Cleaning
+              </h3>
+              <p class="blog-text">
+                Understand the numerous advantages of scheduling regular
+                professional cleanings. From improving indoor air...
+              </p>
+              <a href="#" class="btn btn-outline btn-sm">Read More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 10. CONTACT ================= -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-left">
+          <h2 class="contact-find">Find us</h2>
+
+          <div class="contact-box">
+            <span class="contact-icon"
+              ><i class="fa-solid fa-phone-volume"></i
+            ></span>
+            <div>
+              <h4>Call Us</h4>
+              <p>+(08) 255 201 888</p>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <span class="contact-icon"
+              ><i class="fa-solid fa-envelope"></i
+            ></span>
+            <div>
+              <h4>Email Now</h4>
+              <p>Hello@procleaning.com</p>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <span class="contact-icon"
+              ><i class="fa-solid fa-location-dot"></i
+            ></span>
+            <div>
+              <h4>Address</h4>
+              <p>7510, Brand Tower, New York, USA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <p class="contact-label">Contact info</p>
+          <h2 class="contact-title">Keep In Touch</h2>
+          <p class="contact-desc">
+            We prioritize responding to your inquiries promptly to ensure you
+            receive the assistance you need in a timely manner
+          </p>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <textarea rows="3" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-outline btn-md">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 11. FOOTER ================= -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="images/Vector.png"
+                alt="ProCleaning logo"
+                class="logo-icon"
+              />
+              <div class="logo-text">
+                <h2 class="logo-name"><span>Pro</span>Cleaning</h2>
+                <p class="logo-tagline">Cleaning Services company</p>
+              </div>
+            </a>
+            <p class="footer-text">
+              Stay updated with our latest cleaning tips, service updates, and
+              helpful articles on maintaining a spotless home.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#">Our Team</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Know More</h4>
+            <ul>
+              <li><a href="#contact">Support</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms &amp; conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col footer-news">
+            <h4>Newsletter</h4>
+            <input type="email" placeholder="Email Goes here" />
+            <button type="button" class="btn btn-outline btn-sm">Send</button>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 “ProCleaning” All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
